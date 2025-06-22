@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # CSV 파일 불러오기
-df = pd.read_csv("음료_영양정보_국내브랜드_총150개.csv")
+df = pd.read_csv("drink_data.csv")
 
 st.title("☕ 건강한 음료 추천 시스템")
 
